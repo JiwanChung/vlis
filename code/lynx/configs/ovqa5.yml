@@ -1,0 +1,5 @@
+max_length: 64
+fluency_alpha: 0.3
+fluency_threshold: 0.0
+visual_threshold: 0.04
+num_beams: 1

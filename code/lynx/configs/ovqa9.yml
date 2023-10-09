@@ -1,0 +1,12 @@
+lm_name: 7b_orca
+max_length: 64
+num_beams: 1
+length_penalty: -2
+fluency_alpha: 0.4
+fluency_threshold: 0.0001
+visual_threshold: 0.000001
+instruction_lm: "Do not say 'it depends' and provide a single answer. {}"
+instruction_vm: "Do not say 'it depends' and provide a single answer. {}"
+prefix_lm: "the"
+prefix_vm: "the"
+lower_text: False

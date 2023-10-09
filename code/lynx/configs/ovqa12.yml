@@ -1,0 +1,13 @@
+lm_name: 7b_orca
+max_length: 120
+num_beams: 1
+length_penalty: 0
+fluency_alpha: 0.5
+fluency_threshold: 0.0001
+visual_threshold: 0.0
+instruction_lm: "Provide a definite answer given the image without saying it is difficult to determine. Provide an explanation before answering. Finish your response with 'Hence, the answer to the question \"[QUESTION]\" is'.\n\"{}\""
+instruction_vm: "Provide a definite answer given the image without saying it is difficult to determine. Provide an explanation before answering. Finish your response with 'Hence, the answer to the question \"[QUESTION]\" is'.\n\"{}\""
+prefix_lm: "Let me first describe visual details relevant to the question. The image shows"
+prefix_vm: "Let me first describe visual details relevant to the question. The image shows"
+lower_text: False
+do_cot: False

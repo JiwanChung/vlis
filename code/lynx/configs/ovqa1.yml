@@ -1,0 +1,6 @@
+max_length: 64
+fluency_alpha: 0.4
+fluency_threshold: 0.0001
+visual_threshold: 0.0001
+prefix_lm: "Answer:"
+prefix_vm: "Answer:"

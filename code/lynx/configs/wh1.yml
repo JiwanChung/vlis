@@ -1,0 +1,5 @@
+fluency_alpha: 0.4
+fluency_threshold: 0.0
+max_length: 100
+prefix: 'The image shows'
+instruction: 'Is the picture strange or not in terms of commonsense?'

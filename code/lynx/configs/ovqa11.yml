@@ -1,0 +1,13 @@
+lm_name: 7b_orca
+max_length: 80
+num_beams: 1
+length_penalty: 0
+fluency_alpha: 0.4
+fluency_threshold: 0.0001
+visual_threshold: 0.0
+instruction_lm: "Do not say 'it depends' and provide a single definitive answer. Explain your answer given the image. Finish your response with 'Hence, the answer to the question is'.\n\"{}\" Do not say 'However'."
+instruction_vm: "Do not say 'it depends' and provide a single definitive answer. Explain your answer given the image. Finish your response with 'Hence, the answer to the question is'.\n\"{}\" Do not say 'However'."
+prefix_lm: " the"
+prefix_vm: " the"
+lower_text: False
+do_cot: False

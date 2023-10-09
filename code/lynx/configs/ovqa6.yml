@@ -1,0 +1,7 @@
+max_length: 64
+fluency_alpha: 0.3
+fluency_threshold: 0.0001
+visual_threshold: 0.0001
+num_beams: 1
+prefix_lm: "From my observation, the answer is that"
+prefix_vm: "From my observation, the answer is that"
